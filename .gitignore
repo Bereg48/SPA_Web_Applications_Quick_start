@@ -1,0 +1,742 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytest
+.pytest_cache/
+
+# Poetry
+.poetry/
+
+# Virtualenv
+# .env/
+
+# Dart
+.dart_tool/
+.packages
+.project
+*.stackdump
+
+# Elixir
+._build/
+.cover/
+.deps/
+.builds/
+
+# Erlang
+.ebin/
+.coverdata/
+.coverdata.*
+.coverspec.*
+.htmlcov/
+.lcnt/
+.logs/
+.plt
+
+# Gradle
+bin/
+build/
+.gradle/
+.gradle-build/
+.gradle-test/
+.gradletasknamecache
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+
+# Maven
+log/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Tika
+.trash/
+
+# NativeScript
+node_modules/
+platforms/
+
+# Xamarin
+packages/
+*.userprefs
+*.suo
+*. suo
+*.tmp
+*. TMP
+*.bak
+*. hsc
+*. suo.shadow
+*. ipch
+*. gdb
+*. pidb
+*. suo
+ipch/
+obj/
+TestResults/
+[Bb]in/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+build/
+[Bb]uild[Ll]og.*
+*.[Cc]ache
+*.ilk
+*. tlog
+*. lib
+*. bak
+*. BAK
+*. obj
+*. OBj
+*. plg
+*. pc.*
+*[Rr]e[Ss]u[Ll][Tt]
+[Rr]e[Ss]u[Ll][Tt].*
+*. dun
+*. sbr
+*. suosp
+*. suo.shadow
+*. in
+*. tmp
+*. TMP
+*. ipch
+*. dep
+*. idb
+*. suo.*
+*. suo
+_TEST_TUNER.*
+*. lock
+*. vspscc
+*. psc
+*. pch
+*. buildvshosts
+*. buildres
+*. buildresources
+*. buildvstab
+*. buildexe
+*. buildvcxproj.*
+*. buildtargets
+*. buildvcxproj
+*. buildvcxproj..user
+*. buildvcxproj_c.*
+*. buildvcxproj..supported.*
+*. buildvcxproj..*.vcxproj
+*. buildvctargets.*
+*. buildtargets
+*. BUILDVCTARGETS.*
+*. BUILDVCTargets.*
+*. buildvorig*
+*. BUILDVORIG*
+*. objtoignore.*
+*. toignore*
+*. vshost.exe
+*. vshost.*
+*. vstest.*
+*.vsulk
+*.vsmdi
+*.vsmdi.*
+*.sltNGgc
+*.sltlog
+*.scc
+*.swp
+*. UPS
+*. user
+*. suo.shadow.*
+*. tmpproject.*
+*.tmp_VM_.*
+*. tmp_project.*
+*..LOCKED.*
+*. tracefailedrequests*
+*. buildlog.*
+*. casesensitivity.*
+*. binlog.*
+*. dtool.ver*
+*. lock.authors.realdiff
+*. builderrors.*
+*. orig.*
+*. user.*
+*. variant.*
+*. varmutex.*
+*. war.delta. lock
+*. failed.Authors.
+*. backup.*
+*.webcheckin*
+*.vshost.*
+*. idea/
+*.svn/
+CVS/
+*.DS_Store
+*.swp
+.svn/
+*.tmp
+*.bak
+ ~ *
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+Thumbs.db
+
+# Files that might appear on external disk
+.Spotlight-V100
+.fseventsd
+.DocumentRevisions-V100
+.DS_Store*
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.Trash*
+dfgFile1212~~
+
+# Windows image file caches
+ehthumbs.db
+ehthumbs_*.db
+
+# Folder config file
+Desktop.ini
+
+# Windows cruft
+[cC]ache/
+*.com/
+*.old
+*.bak
+*.BAK
+*.tmp
+*.TMP
+*. Temp
+*. VOID
+*. TEMP
+*. vbc
+*. lhat *
+*. locker*
+*. lock*
+*. bakhelper.sh*
+*. Trash
+*. _TRASHMGR*
+*._TRASH*
+*. state Machine*
+*. trashes*
+*. TRASHES*
+*..segto
+*. segto
+[Cc]opied!
+????? ????????? ??????
+*. Trashes*
+*. gitignore. uuid
+*  .DS_Store *
+* .ionicons*
+* feistiest;
+* P66765768888
+.adobeInc*
+[xX]code/
+* [Xx]codeRecentFileqytytytymac
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+* .index
+* .cache
+* .buildpath
+.settings/
+.classpath
+.project
+factorypath
+
+# Android Studio
+*.iml
+.gradle
+/local.properties
+./out
+/.externalNativeBuild
+/captured/
+*.apk
+*.ap_
+
+# Xcode
+.DS_Store
+build/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+!*.gcignore
+/.cxx/
+*.xccheckout
+*.moved-aside
+*.bproj
+
+# CocoaPods
+Pods/
+.Podfile.with.lock
+Podfile.lock
+
+# Carthage
+/Carthage/Build/
+
+# Fastlane
+.fastlane/report.xml
+/fastlane/
+/CHECKING_FORMAT_USAGE.md
+
+# NPM
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.DS_Store
+.idea
+.vs
+devenv.docstates
+devenv.userprefs
+.vscode
+.*.suo
+*.sln.docstates
+*.suo.guerfin
+src/.eslintrc.cjs
+tools/vscode/task.without-console-cmds.json
+
+# Aptana
+.axtbuildpath
+.metadata/
+
+# Brackets
+.editorconfig
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+._*sublime*
+.svn/
+.svn
+.svnup
+.svnignore
+**/.svn
+
+# TextMate
+.DS_Store
+*.o
+.make
+.custom
+.buildpath
+.#*
+.*.swp
+*.tmproj
+tmproj.projectUUID
+.tmproj.itemIndex
+.tm_properties
+Grammar Development.tmBundle/
+TmCodeReviewer.tmBundle/
+.tmproj
+
+# Arduino
+*.build.path
+*.build.environment.*
+
+# Unity
+ExportedObj/
+UnityGenerated/
+Library/
+metadata/
+Temp/
+Obj/
+TestResults/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+*.vspx
+*.vsp
+*.mem
+TestResult.xml
+*.apk
+*.unitypackage
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.use
+*.sln.docstates
+*.pidb.suo
+*.suo.somewhere.else
+*. suo.rfx
+*. usr
+*. ist
+ * .vscode . settings *
+*.pubxml.user
+*.wpp.targets
+*. wpp. * *
+App.lock
+* / WWWRoot / (root) .svg.acoeavh*
+*.userProb
+*.pubxml
+
+# Build results
+[Cc]overage/
+[Rr]elease/
+[Dd]ebug/
+database.settings.xml
+*/Build/
+*/_build/
+\nbproject/
+*/node_modules/
+grunt-contrib-imagemin/
+.out/
+
+# Build artifacts
+.config/
+.axeResults/
+[Oo]bj/
+[Aa]ppxManifest.xml
+*.build.appxrecipe
+*.msi
+*.appxbundle
+*.appxupload
+*.appx
+*.extensio niharich
+*.vsix
+*.nupkg
+*.pupkg
+*.vsixmanifest
+*.psess
+
+# Click-Once
+publish/
+*.pfx
+*.publish.xml
+.*. .publish.*.publish_ PublicKeyToken_ *
+
+# InstallShield output folder
+[Ee]xpress/
+*.ism
+
+# DocProject is its own project
+.docproject
+.docstates
+
+# ClickOnce publish folder
+publish/
+
+# Windows Installer folders
+*.cab
+*.msi
+*.msm
+*.msp
+
+# iLogic
+entry.dll
+
+# Reports
+*.xml.cache
+
+# Visual Studio profiler
+*.vsp
+*.vspx
+*.vsps
+
+# TFS 2012 Local Workspaces
+$tf/
+*.snk
+*.cache
+*.resources
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+# JustCode is a .NET coding add-in
+.JustCode
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+# AxoCover is a Code Coverage Tool
+.axoCover/*
+!.axoCover/settings.json
+
+# VMWare Workstation
+*.lck
+
+# VirtualBox
+*.vdi
+*.vboxsf
+*.vbox-prev
+!.vagrant/
+*.vagrant/ machines/
+.box/
+.box-versions/
+.cache/
+.metadata/
+.packer-credentials
+.vagrant-build
+.vagrant-ruby2.3/
+.vagrant/
+
+# Heroku
+*.heroku
+/heroku/
+/heroku-output/
+
+# Chef Solo
+*.lock.json
+/.chef/
+
+# Vagrant
+*.checksums
+*.iso
+/vendor/
+*/tmp/
+
+# Ember.js
+/tmp/
+/tmp/*
+/dist/
+/dist/*
+/bower_components/
+/*bower_components/
+/.vagrant/
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.aar
+*.pro
+*.pr_
+*crt.* (certificate files)
+*.jks(Local binary key store database)
+*.RBC (WebMoney files)
+
+# Assets and compiled stuff
+/assets/*
+/public/assets/*
+/public/system/*
+
+# Jade and handlebars stuff
+/templates/*.jade
+/app/views/*.jade
+/templates/*.handlebars
+/app/views/*.handlebars
+
+# Other generated files
+/*.pot
+*.pot~
+*.mo
+*.mo~
+*.log.*
+*.csv
+/pagefiles/
+/node_modules/
+/.next/
+/.now/
+revisions/*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.c9/
+/sbin/
+/politologue/
+runtime/
+config*
+.env
+public/ip*
+/.spina/
+private/docs/
+private/dumps/
+DejaVuSansMono
+dumps/
+DokerSecret
+/argocd-odybot-api/
+.idea/
+venv/
+__pycache__
+.env
