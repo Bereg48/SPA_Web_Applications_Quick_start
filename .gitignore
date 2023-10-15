@@ -568,7 +568,7 @@ grunt-contrib-imagemin/
 .out/
 
 # Build artifacts
-.config/
+#.config/
 .axeResults/
 [Oo]bj/
 [Aa]ppxManifest.xml
