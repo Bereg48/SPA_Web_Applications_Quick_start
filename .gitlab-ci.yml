@@ -9,7 +9,4 @@ Deploy to stage:
         - main
     tags:
         - dev
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/main
