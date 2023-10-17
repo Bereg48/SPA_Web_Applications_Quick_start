@@ -1,15 +1,30 @@
+# Определение этапов
 stages:
-    - deploy
+  - deploy
+  - test
 
-Deploy to stage:
-    stage: deploy
-    script:
-        - cp $ENV_STAGE .env
-    only:
-        - main
-    tags:
-        - dev
-<<<<<<< HEAD
-=======
+# Задача для развертывания
+deploy_to_stage:
+  stage: deploy
+  script:
+    - pip3 install -r requirements.txt  # Установить зависимости Python
+    - python3 manage.py migrate  # Применить миграции
+    - python3 manage.py collectstatic --no-input  # Собрать статические файлы
+    - python3 manage.py runserver &  # Запустить сервер в фоновом режиме
+  only:
+    - main
+  tags:
+    - dev
 
->>>>>>> origin/main
+# Задача для запуска тестов
+run_tests:
+  stage: test
+  script:
+    - pip3 install -r requirements.txt  # Установить зависимости Python
+    - python3 manage.py test  # Запустить тесты
+  only:
+    - main
+  tags:
+    - dev
+
+
