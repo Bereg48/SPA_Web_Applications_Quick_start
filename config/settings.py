@@ -88,27 +88,17 @@ WSGI_APPLICATION = 'config.wsgi.application'  # pragma: no cover
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'HOST': 'db',
-        'PORT': 5432,  # Адрес, на котором развернут сервер БД
-        'PASSWORD': 'mysecretpassword',
+        'NAME': os.getenv("NAME_DB"),
+        'USER': os.getenv("USER_DB"),
+        'HOST': os.getenv("HOST_DB"),  # Адрес, на котором развернут сервер БД
+        'PORT': os.getenv("PORT_DB"),  # Порт, на котором работает сервер БД
+        'PASSWORD': os.getenv("DB_PASSWORD"),
     }
 }
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': os.getenv("NAME_DB"),
-#         'USER': os.getenv("USER_DB"),
-#         'HOST': os.getenv("HOST_DB"),  # Адрес, на котором развернут сервер БД
-#         'PORT': os.getenv("PORT_DB"),  # Порт, на котором работает сервер БД
-#         'PASSWORD': os.getenv("DB_PASSWORD"),
-#     }
-# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
