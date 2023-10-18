@@ -91,11 +91,11 @@ WSGI_APPLICATION = 'config.wsgi.application'  # pragma: no cover
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.getenv("POSTGRES_DB"),
-        'USER': os.getenv("POSTGRES_USER"),
+        'NAME': 'postgres',
+        'USER': 'postgres',
         'HOST': 'db',
         'PORT': 5432,  # Адрес, на котором развернут сервер БД
-        'PASSWORD': os.getenv("POSTGRES_PASSWORD"),
+        'PASSWORD': 'mysecretpassword',
     }
 }
 
